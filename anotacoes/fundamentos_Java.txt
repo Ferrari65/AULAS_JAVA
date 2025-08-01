@@ -1,0 +1,79 @@
+Tipos primitivos em Java
+    1- Byte: 8 bits --> 128 a 127
+    2. short: 16 bits --> -32768 a 32767.
+    3. int: 32 bits --> -2147483648 a 2147483647.
+    4. long: 64 bits --> -9223372036854775808 a 9223372036854775807.
+    5. float: 32 bits --> ponto flutuante de aproximadamente ±1.4E-45 a
+    ±3.4028235E38.
+    6. double: 64 bits --> ponto flutuante de aproximadamente ±4.9E-324 a
+    ±1.7976931348623157E308.
+    7. boolean: true ou false.
+    8. char: 16 bits --> caracteres únicos, como 'a' ou 'A'. (65535).
+
+   EXEMPLO
+   public static void main (string[] args {
+    byte idade = 25;
+    short ano = 2025;
+    int populacaoCidade = 500000;
+    long populacaoMuncial = 7800000000L;
+    float altura = 1.75f;
+    double salario = 45000.50;
+    boolean estudante = true;
+    char inicialNome= 'A';
+
+    System.out.println("Idade: " + idade); 
+    System.out.println("Ano: " + ano); 
+    System.out.println("População da cidade: " +
+    populacaoCidade); 
+    System.out.println("População mundial: " + populacaoMundial);
+    System.out.println("Altura: " + altura); 
+    System.out.println("Salário: " + salario); 
+    System.out.println("É estudante? " + estudante); 
+    System.out.println("Inicial do nome: " + inicialNome); 
+
+   }
+) 
+
+Promoções Automáticas em Java
+
+1 Regras Basicas
+
+- byte, short e char são promovidos para int quando usados em uma
+expressão.
+   Exemplo:
+   byte a = 10; 
+   int b = a + 5; // a é promovido para int antes do cálculo
+
+- Se um operando é long, o outro é promovido para long.
+    Exemplo:
+    int a = 10; 
+    long b = 15L; 
+    long c = a + b; // a é promovido para long antes do cálculo
+
+- Se um operando é float, o outro é promovido para float.
+    Exemplo:
+    int a = 10; 
+    float b = 1.5f; 
+    float c = a * b; // a é promovido para float antes do
+    cálculo
+
+- Se um operando é double, o outro é promovido para double.
+    Exemplo:
+    int a = 10;
+    double b = 1.5; 
+    double c = a * b; // a é promovido para double antes do
+    cálculo
+
+Uso de var em Java
+- Var foi introduzida no Java 10
+- Declarar uma Variavel
+- Inferência de Valor
+
+    Exemplo:
+    var numero = 10; // inferência int
+    var usuario = new Usuario(); // inferência do tipo Usuario
+
+Limitações do var
+- Variáveis locais.
+- Valores nulos
+                                                                                                                            
