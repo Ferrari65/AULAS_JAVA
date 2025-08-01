@@ -1,0 +1,11 @@
+Algumas das Principais convenções:
+
+Nomes em minusculas: Os nomes das variaveis deve começar com letras minusculas. Se o nome  for composto por varias palavras, utilizamos camelCase, onde a primeira letra de cada palavra subsequente é maiúscula. como por exemplo firstName, lastName.
+
+Evitar caracteres especiais: Não use caracteres especiais como &, $, ou _ no início dos nomes das variáveis. Eles devem começar com uma letra.
+
+Nomes significativos: Escolha nomes que sejam descritivos e mnemônicos, ou seja, que indiquem claramente a finalidade da variável. Evite nomes de um único caractere (no curso fizemos apenas para testes).
+
+Não usar palavras-chave: Certifique-se de que os nomes das variáveis não sejam palavras-chave reservadas da linguagem Java.
+
+Nomes de classes: Os nomes das classes devem ser substantivos e começar com uma letra maiúscula. Se o nome for composto por várias palavras, use a notação PascalCase, onde a primeira letra de cada palavra é maiúscula. Por exemplo: Funcionario, GerenteDeConta.

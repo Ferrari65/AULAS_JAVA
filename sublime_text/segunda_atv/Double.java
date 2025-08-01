@@ -4,6 +4,6 @@ public class Double {
 		double b = 1.5;
 		double c = a + b;
 
-		System.out.println("Valor de C = " + c);
+		System.out.println("Valor de C = " + c); // se um operando é double, o outro é promovido para double
 	}
 }
